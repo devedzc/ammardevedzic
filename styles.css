@@ -1,0 +1,76 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* Desktop View */
+
+
+body {
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+
+h1 {
+	color: #276775;
+}
+
+.slicknav_menu {
+	display: none;
+}
+
+#menu {
+	float:right;
+}
+
+#menu li {
+	display: inline-block;
+	}
+
+
+#menu li a {
+	text-decoration: none;
+	color:black;
+	padding: 8px;
+	font-size: 18px;
+	
+}
+
+header {
+	padding-top: 10px;
+	padding-bottom:20px;
+	padding-left:20px;
+	padding-right: 20px;
+}
+
+
+
+
+
+
+/* Tablet View */
+
+@media (max-width: 768px) {
+	
+	#menu li {
+		display:block;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+/* Mobile View */
+
+@media (max-width: 400px) {
+	
+.slicknav_menu {
+	display: block;
+}	
+	#menu {
+		display:none;
+	}
+}
